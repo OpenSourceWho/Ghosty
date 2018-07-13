@@ -16,7 +16,7 @@ module.exports = class ReplyCommand extends Command {
         .setDescription("information about the bot")
         .addField("Library", "Discord.JS-Commando")
         .addField("Developers", "0101010_jellybean")
-        .addField("Github", "Coming Soon")
+        .addField("Github", "https://github.com/OpenSourceWho/Ghosty")
         .setColor(0x00AE86)
         .setTimestamp();
         return msg.say(embed);
