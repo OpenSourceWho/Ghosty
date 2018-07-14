@@ -17,7 +17,10 @@ client.on("ready", () => {
 client.registry
     .registerDefaultTypes()
     .registerGroups([
-        ["misc", "View a list of all misc commands"]
+        ["bot related", "View a list of all bot related commands"],
+        ["misc", "View a list of all misc commands"],
+        ["moderation", "View a list of all moderation commands"],
+        ["the internet", "View a list of all the internet commands"]
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
